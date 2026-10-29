@@ -35,7 +35,7 @@ Time to process a range of 5 elements with std::deque : ... ns.
 
 - Values must be integers between 0 and `INT_MAX`; duplicates are allowed
 - At least two values are required
-- Only the first 5 values are printed, so long sequences stay readable
+- Only the first 5 values are printed, so long sequences stay readable. Change LOG in inc/PmergeMe.hpp to print more, or set it to 0 to print every value
 
 ---
 
